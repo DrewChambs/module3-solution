@@ -1,17 +1,21 @@
 
 
+/* Set resets */
 * {
   box-sizing: border-box;
   border: 0;
   padding: 0;
     /* border: 1px solid black; */
 }
+/* Add google fonts to entire page */
 body {
     font-family: 'Yusei Magic', sans-serif;
 }
+/* Set default font-size */
 html {
   font-size: 16px;
   }
+  /* Move Menu heading away from main content */
 h1 {
   margin-bottom: 50px;
   }
@@ -20,45 +24,47 @@ h2 {
   padding-top: 25px;
   font-size: 2em;
 }
+/* Links display in black */
 a {
   color: black;
 }
-
-header {
-  /* set header background */
-  /* background: yellow; */
-}
-
+/* bottom border for menu items */
 ul li {
   border-bottom: 3px solid black;
 }
-
+/* As link is hovered, grey background appears */
 li a:hover {
   background: grey;
   color: white;
 }
-
+/* Set color for main nav */
 #header-nav {
   background: rgb(210, 105, 30);
   border-bottom: 3px solid black;
 }
+/* Move brand logo away from top of page */
 .navbar-brand {
   padding-top: 35px;
 }
+/* set font-size in logo link */
 a > h1 {
   font-size: 2em;
 }
+/* border set for dropdown toggle button */
 #header-nav button.navbar-toggler {
   border: 2px solid black;
 }
+/* Hover to set background(Not used. Save for later) */
 #header-nav button.navbar-toggler:hover {
-  background: white;
+  /* background: white; */
 }
+/* styles for dropdown links */
 .nav-item {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
 }
+/* main content styles */
 .logo {
         background: #556B2F;
         color: white;
